@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* INDEX */
+header {
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #FFF;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+.img-jane {
+    background-image: fixed;
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+h3{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+h3:hover{
+    background-color: coral;
+}
+
+.paragrafo{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.paragrafo:hover{
+    background-color: coral;
+}
+
+.microfone-jane{
+    position: fixed;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.rodape-home{
+    text-align: center;
+    display: block;
+    background: #e9e9e9;
+    color: black;
+    margin-top: -5px;
+    padding: 10px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-sizing: border-box;
+}
+
+
+/* CONTACT */
+
+main#contact {
+    width:100%;
+    margin-top:150px;   
+    overflow: hidden;
+}
+
+main#contact form {
+    font-size: 20px;
+    text-align: left;
+}    
+
+main#contact form input {
+    padding: 5px;
+    font-size: 15px;
+    width: 100%;
+    
+}
+
+main#contact form textarea {
+    padding: 5px;
+    font-size: 20px;
+    width: 100%;
+   
+}
+
+main#contact form button {
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 0 0px;
+    background-color: red;
+}
+
+main#contact .form-group {
+    margin-bottom: 25px;  
+}
+
+
+#mapa{
+    float: right;
+    margin-top: 100px ;
+    margin-right: 150px;
+}
+
+.coluna1{
+    float: left;
+    margin-left: 150px;
+
+}
+
+.contatos-agentes{
+    clear: both;
+    align-items: left;
+    margin-left: 150px;
+    margin-right: 70%;
+}
+.agente1:hover{
+    background-color: #e9e9e9;
+}
+
+.agente2:hover{
+    background-color: #e9e9e9;
+}
+.agente3:hover{
+    background-color: #e9e9e9;
+}
+
+.agente4:hover{
+    background-color: #e9e9e9;
+}
+
+.nome{
+    font-weight: bold;
+}
+
+.rodape-contact{
+    display: block;
+    background: #e9e9e9;
+    color: black;
+    text-align: center;
+    padding: 2px;
+    border: 2px;
+    width: 100%;
+    border: 1px;
+}
+
+/* ABOUT */
+
+.microfone{
+    background-image: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+}
+
+.sobre:hover{
+    background-color: #e9e9e9;
+
+}
+.about:hover{
+    background-color: #e9e9e9;
+    }
+
+
+.about {
+    text-align: center;
+    font-weight: none;
+    font-size: 12px;
+    }
+.sobre{
+    text-align: center;
+    font-weight: bold;
+}
+.img-jane2{
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 10px;
+    background-color: orange;
+}
+
+
+.redirect{
+    margin-left: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.redirect:hover{
+    background-color: coral;
+}
+
+
+.rodape{
+    display: block;
+    background: #e9e9e9;
+    color: black;
+    text-align: center;
+    padding: 2px;
+    border: 2px;
+    width: 100%;
+    border: 1px;
+
+}
+
+/* MUSIC */
+.lista{
+    margin-left: 15%;
+    line-height: 3px;
+}
+
+.video{
+    margin-left: 15%;
+    width:500px;
+    height: 300px;
+}
+
+.fonte-music{
+    margin-left: 15%;
+    line-height: 15px;
+}
+
+#music{
+    text-align: left;
+    margin-left: 15%;
+}
+
+.music-image{
+    background-image: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.video:focus{
+width: 400;
+}
